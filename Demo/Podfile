@@ -1,0 +1,6 @@
+pod "HostsFileUpdater", :path => "../HostsFileUpdater.podspec"
+
+target "DemoTests" do
+  pod 'Specta'
+  pod 'Expecta'
+end

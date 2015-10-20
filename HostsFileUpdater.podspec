@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = "HostsFileUpdater"
   s.version          = "0.1.0"
-  s.summary          = "A short description of HostsFileUpdater."
+  s.summary          = "This will read a Hosts file line by line."
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,6 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
+                        Iterate through a hosts file line by line.
                        DESC
 
   s.homepage         = "https://github.com/<GITHUB_USERNAME>/HostsFileUpdater"
@@ -27,12 +28,13 @@ Pod::Spec.new do |s|
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'
+  s.platform     = :osx, '10.11'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'
-  s.resource_bundles = {
-    'HostsFileUpdater' => ['Pod/Assets/*.png']
-  }
+  #s.resource_bundles = {
+  #  'HostsFileUpdater' => ['Pod/Assets/*.png']
+  #}
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

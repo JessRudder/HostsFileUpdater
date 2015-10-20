@@ -4,13 +4,25 @@
 
 language: objective-c
 # cache: cocoapods
-podfile: Example/Podfile
+podfile: Demo/Podfile
 before_install:
 - gem install cocoapods # Since Travis is not always on latest version
-- pod install --project-directory=Example
+- pod install --project-directory=Demo
 install:
 - gem install xcpretty --no-rdoc --no-ri --no-document --quiet
 script:
-- set -o pipefail && xcodebuild test -workspace Example/HostsFileUpdater.xcworkspace -scheme HostsFileUpdater-Example -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO | xcpretty -c
+- set -o pipefail && xcodebuild test -workspace Demo/Demo.xcworkspace -scheme HostsFileUpdater-Demo -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO | xcpretty -c
 - pod lib lint --quick
 
+
+# language: objective-c
+
+# before_script:
+#   - export LANG=en_US.UTF-8
+#   - cd Demo ; pod install ; cd ..
+
+# xcode_workspace: Demo/Demo.xcworkspace
+
+# xcode_scheme: Demo
+
+# xcode_sdk: iphonesimulator

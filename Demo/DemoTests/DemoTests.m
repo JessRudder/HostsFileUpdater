@@ -1,12 +1,14 @@
 //
-//  HostsFileUpdaterTests.m
-//  HostsFileUpdaterTests
+//  DemoTests.m
+//  DemoTests
 //
-//  Created by JessRudder on 10/19/2015.
-//  Copyright (c) 2015 JessRudder. All rights reserved.
+//  Created by Jessica Rudder on 10/20/15.
+//  Copyright © 2015 Jessica Rudder. All rights reserved.
 //
 
-// https://github.com/Specta/Specta
+#import <Specta/Specta.h>
+#define EXP_SHORTHAND
+#import <Expecta/Expecta.h>
 
 SpecBegin(InitialSpecs)
 
@@ -45,4 +47,3 @@ describe(@"these will pass", ^{
 });
 
 SpecEnd
-

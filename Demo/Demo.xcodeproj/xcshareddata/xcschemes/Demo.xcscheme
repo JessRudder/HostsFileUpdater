@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6003F589195388D20070C39A"
-               BuildableName = "HostsFileUpdater_Example.app"
-               BlueprintName = "HostsFileUpdater_Example"
-               ReferencedContainer = "container:HostsFileUpdater.xcodeproj">
+               BlueprintIdentifier = "4C0C338F1BD697AB0003B3C1"
+               BuildableName = "Demo.app"
+               BlueprintName = "Demo"
+               ReferencedContainer = "container:Demo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,20 +32,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6003F5AD195388D20070C39A"
-               BuildableName = "HostsFileUpdater_Tests.xctest"
-               BlueprintName = "HostsFileUpdater_Tests"
-               ReferencedContainer = "container:HostsFileUpdater.xcodeproj">
+               BlueprintIdentifier = "4C0C33A21BD697AB0003B3C1"
+               BuildableName = "DemoTests.xctest"
+               BlueprintName = "DemoTests"
+               ReferencedContainer = "container:Demo.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6003F589195388D20070C39A"
-            BuildableName = "HostsFileUpdater_Example.app"
-            BlueprintName = "HostsFileUpdater_Example"
-            ReferencedContainer = "container:HostsFileUpdater.xcodeproj">
+            BlueprintIdentifier = "4C0C338F1BD697AB0003B3C1"
+            BuildableName = "Demo.app"
+            BlueprintName = "Demo"
+            ReferencedContainer = "container:Demo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -65,10 +65,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6003F589195388D20070C39A"
-            BuildableName = "HostsFileUpdater_Example.app"
-            BlueprintName = "HostsFileUpdater_Example"
-            ReferencedContainer = "container:HostsFileUpdater.xcodeproj">
+            BlueprintIdentifier = "4C0C338F1BD697AB0003B3C1"
+            BuildableName = "Demo.app"
+            BlueprintName = "Demo"
+            ReferencedContainer = "container:Demo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -84,10 +84,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6003F589195388D20070C39A"
-            BuildableName = "HostsFileUpdater_Example.app"
-            BlueprintName = "HostsFileUpdater_Example"
-            ReferencedContainer = "container:HostsFileUpdater.xcodeproj">
+            BlueprintIdentifier = "4C0C338F1BD697AB0003B3C1"
+            BuildableName = "Demo.app"
+            BlueprintName = "Demo"
+            ReferencedContainer = "container:Demo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
