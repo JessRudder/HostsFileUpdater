@@ -18,9 +18,11 @@ profile
 DerivedData
 *.hmap
 *.ipa
+Example/Pods
 
 # Bundler
 .bundle
+Gemfile.lock
 
 Carthage
 # We recommend against adding the Pods directory to your .gitignore. However
