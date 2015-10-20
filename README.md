@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/cocoapods/l/HostsFileUpdater.svg?style=flat)](http://cocoapods.org/pods/HostsFileUpdater)
 [![Platform](https://img.shields.io/cocoapods/p/HostsFileUpdater.svg?style=flat)](http://cocoapods.org/pods/HostsFileUpdater)
 
+Iterate through a Hosts file line by line.
+
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
@@ -20,10 +22,18 @@ it, simply add the following line to your Podfile:
 pod "HostsFileUpdater"
 ```
 
+## Contributing
+
+See [CONTRIBUTING](CONTRIBUTING.md).
+
+## Changes
+
+See [CHANGELOG](CHANGELOG.md) for a history of changes.
+
 ## Author
 
 JessRudder, thejessicarudder@gmail.com
 
 ## License
 
-HostsFileUpdater is available under the MIT license. See the LICENSE file for more info.
+This project is licensed under the [MIT License](LICENSE.md).
