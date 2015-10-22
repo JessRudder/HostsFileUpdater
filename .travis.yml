@@ -12,7 +12,7 @@ before_install:
 - brew install xctool
 - export LANG=en_US.UTF-8
 - gem install cocoapods --no-ri --no-rdoc # Since Travis is not always on latest version
-
+- pod install
 install:
 - gem install xcpretty --no-rdoc --no-ri --no-document --quiet
 
